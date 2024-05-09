@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>del mundo_tsa2</title>
+</head>
+
+<body>
+    <center>
+        <form action="/submit-pokemon" method="post">
+            <table align="center">
+                <tr>
+                    <table align="center">
+                        <td>National Dex Number:</td>
+                        <td><input type="number" name="nationalDexNumber" min="1"></td>
+                    </table>
+                </tr>
+                <br>
+                <tr>
+                    <td>
+                        <table align="center">
+                            <label><input type="radio" name="generation" value="1"> Generation 1</label>
+                            <label><input type="radio" name="generation" value="2"> Generation 2</label>
+                            <label><input type="radio" name="generation" value="3"> Generation 3</label>
+                            <label><input type="radio" name="generation" value="4"> Generation 4</label>
+                            <label><input type="radio" name="generation" value="5"> Generation 5</label>
+                            <label><input type="radio" name="generation" value="6"> Generation 6</label>
+                            <label><input type="radio" name="generation" value="7"> Generation 7</label>
+                            <label><input type="radio" name="generation" value="8"> Generation 8</label>
+                            <label><input type="radio" name="generation" value="9"> Generation 9</label>
+                        </table>
+                    </td>
+                </tr>
+                <br>
+                <tr>
+                    <table align="center">
+                        <td>Pokémon Name:</td>
+                        <td><input type="text" name="pokemonName"></td>
+                    </table>
+                </tr>
+                <br>
+                <tr>
+                    <td>Image:</td>
+                    <td><input type="file" name="pokemonImage"></td>
+                </tr>
+                <br>
+                <br>
+                <tr>
+                    <td>Type 1:</td>
+                    <td>
+                        <select name="type1">
+                            <option value="Normal">Normal</option>
+                            <option value="Fire">Fire</option>
+                            <option value="Water">Water</option>
+                            <option value="Electric">Electric</option>
+                            <option value="Grass">Grass</option>
+                            <option value="Ice">Ice</option>
+                            <option value="Fighting">Fighting</option>
+                            <option value="Poison">Poison</option>
+                            <option value="Ground">Ground</option>
+                            <option value="Flying">Flying</option>
+                            <option value="Psychic">Psychic</option>
+                            <option value="Bug">Bug</option>
+                            <option value="Rock">Rock</option>
+                            <option value="Ghost">Ghost</option>
+                            <option value="Dragon">Dragon</option>
+                            <option value="Dark">Dark</option>
+                            <option value="Steel">Steel</option>
+                            <option value="Fairy">Fairy</option>
+                        </select>
+                    </td>
+                    <td>Type 2:</td>
+                    <td>
+                        <select name="type2">
+                            <option value="Normal">Normal</option>
+                            <option value="Fire">Fire</option>
+                            <option value="Water">Water</option>
+                            <option value="Electric">Electric</option>
+                            <option value="Grass">Grass</option>
+                            <option value="Ice">Ice</option>
+                            <option value="Fighting">Fighting</option>
+                            <option value="Poison">Poison</option>
+                            <option value="Ground">Ground</option>
+                            <option value="Flying">Flying</option>
+                            <option value="Psychic">Psychic</option>
+                            <option value="Bug">Bug</option>
+                            <option value="Rock">Rock</option>
+                            <option value="Ghost">Ghost</option>
+                            <option value="Dragon">Dragon</option>
+                            <option value="Dark">Dark</option>
+                            <option value="Steel">Steel</option>
+                            <option value="Fairy">Fairy</option>
+                        </select>
+                    </td>
+                </tr>
+                <br>
+                <br>
+                <tr>
+                    <td>Evolves From:</td>
+                    <td><input type="text" name="evolvesFrom"></td>
+                    <td>Evolves To:</td>
+                    <td><input type="text" name="evolvesTo"></td>
+                </tr>
+                <br>
+                <br>
+                <tr>
+                    <td>Nickname:</td>
+                    <td><input type="text" name="nickname"></td>
+                </tr>
+                <br>
+                <br>
+                <tr>
+                    <td>Birthday:</td>
+                    <td><input type="date" name="birthday"></td>
+                </tr>
+                <br>
+                <br>
+                <tr>
+                    <td colspan="4" align="center">
+                        <!-- Submit button -->
+                        <input type="submit" value="Submit">
+                    </td>
+                </tr>
+        </form>
+
+        <table border="1" align="center">
+            <tr>
+                <th>National Dex</th>
+                <th>Generation</th>
+                <th>Pokemon Name</th>
+                <th>Image</th>
+                <th>Type 1</th>
+                <th>Type 2</th>
+                <th>Evolves From</th> z
+                <th>Evolves To</th>
+                <th>Nickname</th>
+                <th>Birthday</th>
+            </tr>
+            <tr align="center">
+                <th>#0004</th>
+                <td>Gen I </td>
+                <td>Charmander</td>
+                <td><img src=https://archives.bulbagarden.net/media/upload/thumb/2/27/0004Charmander.png/105px-0004Charmander.png
+                        alt="My Image" </td>
+                <td colspan="2" bgcolor="red" style="text-align: center;">
+                    <font color="white">Fire</font>
+                </td>
+                <td>N/A</td>
+                <td>Charmeleon</td>
+                <td>Buga</td>
+                <td>12/02/04</td>
+            </tr>
+            <tr align="center">
+                <th>#0023</th>
+                <td>Gen I</td>
+                <td>Ekans</td>
+                <td><img src=https://archives.bulbagarden.net/media/upload/thumb/d/d2/0023Ekans.png/105px-0023Ekans.png
+                        alt="My Image" </td>
+                <td colspan="2" bgcolor="purple" style="text-align: center;">
+                    <font color="white">Poison</font>
+                <td>N/A</td>
+                <td>Arbok</td>
+                <td>Ahas</td>
+                <td>01/15/03</td>
+            </tr>
+            <tr align="center">
+                <th>#0169</th>
+                <td>Gen II</td>
+                <td>Crobat</td>
+                <td><img src="https://archives.bulbagarden.net/media/upload/thumb/3/35/0169Crobat.png/105px-0169Crobat.png"
+                        alt="My Image" </td>
+                <td bgcolor="purple" style="text-align: center;">
+                    <font color="white">Poison</font>
+                </td>
+                <td bgcolor="skyblue" style="text-align: center;">
+                    <font color="white">Flying</font>
+                </td>
+                <td>Gobalt</td>
+                <td>N/A</td>
+                <td>Paniki</td>
+                <td>03/4/02</td>
+            </tr>
+            <tr align="center">
+                <th>#0173</th>
+                <td>Gen II</td>
+                <td>Cleffa</td>
+                <td><img src="https://archives.bulbagarden.net/media/upload/thumb/7/73/0173Cleffa.png/105px-0173Cleffa.png"
+                        alt="My Image" </td>
+                <td colspan="2" bgcolor="pink" style="text-align: center;">
+                    <font color="white">Fairy</font>
+                <td>N/A</td>
+                <td>Clefairy</td>
+                <td>Chubs</td>
+                <td>10/1/02</td>
+            </tr>
+            <tr align="center">
+                <th>#0179</th>
+                <td>Gen II</td>
+                <td>Mareep</td>
+                <td><img src="https://archives.bulbagarden.net/media/upload/thumb/1/16/0179Mareep.png/105px-0179Mareep.png"
+                        alt="My Image" </td>
+                <td colspan="2" bgcolor="gold" style="text-align: center;">
+                    <font color="white">Electric</font>
+                <td>N/A</td>
+                <td>Flaaffy</td>
+                <td>Sheepsy</td>
+                <td>01/03/05</td>
+            </tr>
+            <tr align="center">
+                <th>#0261</th>
+                <td>Gen III</td>
+                <td>Poochyena</td>
+                <td><img src="https://archives.bulbagarden.net/media/upload/thumb/2/21/0261Poochyena.png/105px-0261Poochyena.png"
+                        alt="My Image" </td>
+                <td colspan="2" bgcolor=#624D4E style="text-align: center;">
+                    <font color="white">Dark</font>
+                <td>N/A</td>
+                <td>Mightyena</td>
+                <td>Wolfy</td>
+                <td>04/11/07</td>
+            </tr>
+            <tr align="center">
+                <th>#0276</th>
+                <td>Gen III</td>
+                <td>Taillow</td>
+                <td><img src="https://archives.bulbagarden.net/media/upload/thumb/a/aa/0276Taillow.png/105px-0276Taillow.png"
+                        alt="My Image" </td>
+                <td bgcolor=#9FA19F style="text-align: center;">
+                    <font color="white">Normal</font>
+                <td bgcolor="skyblue" style="text-align: center;">
+                    <font color="white">Flying</font>
+                <td>N/A</td>
+                <td>Swellow</td>
+                <td>Birdie</td>
+                <td>06/13/03</td>
+            </tr>
+            <tr align="center">
+                <th>#0486</th>
+                <td>Gen IV</td>
+                <td>Regigigas</td>
+                <td><img src="https://archives.bulbagarden.net/media/upload/thumb/e/e3/0486Regigigas.png/105px-0486Regigigas.png"
+                        alt="My Image" </td>
+                <td colspan="2" bgcolor=#9FA19F style="text-align: center;">
+                    <font color="white">Normal</font>
+                <td>N/A</td>
+                <td>N/A</td>
+
+                <td>Robby</td>
+                <td>11/10/01</td>
+            </tr>
+            <tr align="center">
+                <th>#0025</th>
+                <td>Gen I</td>
+                <td>Pikachu</td>
+                <td><img src="https://archives.bulbagarden.net/media/upload/thumb/4/4a/0025Pikachu.png/105px-0025Pikachu.png"
+                        alt="My Image" </td>
+                <td colspan="2" bgcolor="gold" style="text-align: center;">
+                    <font color="white">Electric</font>
+                <td>N/A</td>
+                <td>Raichu</td>
+                <td>Bolty</td>
+                <td>11/02/05</td>
+            </tr>
+            <tr align="center">
+                <th>#01126</th>
+                <td>Gen X</td>
+                <td>Girows</td>
+                <td><img src="https://scontent.fmnl33-5.fna.fbcdn.net/v/t39.30808-6/295984713_3281943252046426_1004499360400265178_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=95sSWLdB4RAQ7kNvgEqwa-Y&_nc_ht=scontent.fmnl33-5.fna&oh=00_AfB0Qwk5nJfJMgDZ5v421PTmm65besYqGSb2v2wvlykvUA&oe=664180CA"
+                        alt="My Image" width="120" height="120" </td>
+                <td colspan="2" bgcolor=#624D4E style="text-align: center;">
+                    <font color="white">Dark</font>
+                <td>N/A</td>
+                <td>N/A</td>
+                <td>Arleigh</td>
+                <td>10/15/05</td>
+            </tr>
+        </table>
+
+</body>
+
+</html>
+</center>
+</body>
+
+</html>
