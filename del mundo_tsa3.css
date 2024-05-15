@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+body{
+    background-image: url(pldt\ redwhite\ 2.jpg);
+    background-size: 1920px, 1080px;;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-family: "Cinzel", serif;
+    font-size: 28px;
+}
+
+.heading{ 
+    font-family: "Cinzel", serif;"
+    font-size: 55px;
+}
+
+.subheading{ 
+    font-size: 2em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.white{
+    color:white;
+    font-weight: bold;
+}
