@@ -10,7 +10,7 @@ body{
 }
 
 .container{
-    background-image: url(bgimg.jpg);
+    background-image: url(backgroundimg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -116,7 +116,7 @@ p{
     }
 
     .icon:hover{
-        background-image: url("gifbg.gif");
+        background-image: url("bghover.jpg");
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
@@ -142,7 +142,7 @@ p{
 }
 
     .icon:hover{
-        background-image: url("gifbg.gif");
+        background-image: url("bghover.jpg");
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
