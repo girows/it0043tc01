@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 1s ease;
+}
+
+body{
+    background-color: black;
+}
+
+.container{
+    background-image: url(pokebg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width: 90vw;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.icon{
+    width: 350px;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+	display: flex;
+    flex-grow: 1;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.bulba{
+    background-color: #3fbd71;
+}
+
+.char{
+    background-color: #ce6722;
+}
+
+.jigg{
+    background-color: #d166c3;
+}
+
+.mank{
+    background-color: #c4833d;
+}
+
+.meow{
+    background-color: #e4cca0;
+}
+
+.pidg{
+    background-color: #d69846;
+}
+
+.pika{
+    background-color: #f7ef0d;
+}
+
+.psy{
+    background-color: #e7e253;
+}
+
+.rat{
+    background-color: #c864f0;
+}
+
+.snor{
+    background-color: #2a82e6;
+}
+
+.squi{
+    background-color: #4d9fe2;
+}
+
+.veno{
+    background-color: #aa3beb;
+}
+
+img{
+    width: 100%;
+}
+
+p{
+    display: none;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
+
+.types{
+	display: none;
+	text-align: center;
+}
+
+#pokeball{
+    display: none;
+    width: 115px;
+    height: 80px;
+}
+
+@media(max-width: 1200px){
+    .icon{
+		display: flex;
+        padding: 20px;
+        width: 600px;
+        vertical-align: center;
+        flex-grow: 1;
+    }
+
+    .icon:hover{
+        background-image: url("gifbg.gif");
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+    }
+	
+
+    p, #pokeball{
+        display: inline-block;
+    }
+
+    img{
+        width: 100px;
+    }
+}
+
+@media(max-width: 500px){
+    .icon{
+        padding: 20px;
+        width: 250px;
+        vertical-align: center;
+        flex-grow: 1;
+		flex-direction: column;
+}
+
+    .icon:hover{
+        background-image: url("gifbg.gif");
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+    }
+
+    p, types{
+        display: inline-block;
+    }
+
+    #pokeball{
+        display: none;
+    }
+
+    img{
+        width: 150px;
+    }
+	
+	.types{
+		width: 100%;
+		margin: 0 10rem;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.type1, .type2{
+		display: inline-block;
+		padding: 0.5rem;
+		border-radius: 0.5rem;
+		margin: 0.5rem;
+		color: white;
+		font-size: 1.5rem;
+		flex-grow: 1;
+	}
+}
+
+.Bug{
+	background-color: #A6B91A;
+}
+
+.fighting{
+	background-color: #C22E28;
+}
+
+.fire{
+	background-color: #EE8130;
+}
+
+.Poison{
+	background-color: #A33EA1;
+}
+
+.Poison{
+	background-color: #A33EA1;
+}
+
+.Normal{
+	background-color: #A8A77A;
+}
+
+.normal{
+	background-color: #A8A77A;
+}
+
+.fairy{
+	background-color: #D685AD;
+}
+
+.Water{
+	background-color: #296bf8;
+}
+
+.water{
+	background-color: #296bf8;
+}
+
+.flying{
+	background-color: #A98FF3;
+}
+
+.electric{
+	background-color: #F7D02C;
+}
+
+.grass{
+	background-color: #7AC74C;
+}
