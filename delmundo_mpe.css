@@ -10,7 +10,7 @@ body{
 }
 
 .container{
-    background-image: url(pokebg.jpg);
+    background-image: url(bgimg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
