@@ -1,0 +1,182 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(DOLLA.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    width: 85vw;
+    border: 10px;
+    margin: 20px auto;
+    padding: 10px;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
+.item{
+    border: 5px solid;
+    padding: 10px;
+    border-radius: 25px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+
+
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+}
+
+img{
+    width: 350px;
+}
+
+.name{
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.race{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.desc{
+    font-size: 35px;
+    color: #e6d6d6;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+#Tokyo{
+    background-color: #a32a27;
+    color: #ffffff;
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+
+#Rio{
+    background-color: #a32a27;
+    color: #ffffff;
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+#Berlin{
+    background-color: #a32a27;
+    color: #ffffff;
+    grid-column: 4/5;
+    grid-row: 1/3;
+}
+
+#Prof{
+    background-color: #a32a27;
+    color: #ffffff;
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+
+#Denver{
+    background-color: #a32a27;
+    color: #ffffff;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+#Tokyo .details,
+#Prof .details{
+    flex-direction: row;
+}
+
+@media(max-width:1200px){
+    .container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    #Tokyo{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    
+    #Rio{
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    
+    #Berlin{
+        grid-column: 1/3;
+        grid-row: 3/4;
+    }
+    
+    #Prof{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    
+    #Denver{
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+
+    #Berlin .details{
+        flex-direction: row;
+    }
+
+    #Tokyo .details,
+    #Prof .details{
+        flex-direction: column;
+    }
+
+}
+
+@media(max-width: 700px){
+    .container{
+        grid-template-columns: 1fr;
+    }
+   
+    #Tokyo{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    
+    #Rio{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    
+    #Berlin{
+        grid-column: 1/2;
+        grid-row: 5/6;
+    }
+    
+    #Prof{
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+    
+    #Denver{
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    #Tokyo .details,
+    #Prof .details,
+    #Berlin .details,
+    #Rio .details,
+    #Denver .details{
+        flex-direction: row;
+    }
+}
