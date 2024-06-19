@@ -1,0 +1,246 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+header {
+    background-color: #000;
+    padding: 10px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.logo {
+  display: inline-block; /* make it an inline block element */
+  margin-right: 10px; /* add some space between the logo and the text */
+}
+
+.logo a {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff4655;
+  text-decoration: none;
+}
+
+.logo img {
+  width: 30px; /* resize the logo image */
+  height: 30px;
+  vertical-align: middle; /* align the image with the text */
+}
+
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ff4655;
+}
+
+.banner {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.weapons-section {
+    background-color: #262626;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .weapons-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .weapon {
+    background-color: #333;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .weapon img {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+  }
+  
+  .weapon h3 {
+    font-size: 18px;
+    margin-top: 0;
+  }
+  
+  .weapon p {
+    font-size: 14px;
+    color: #999;
+  }
+  .weapons-grid .weapon {
+    transition: transform 0.3s; /* add a transition effect */
+  }
+  
+  .weapons-grid .weapon:hover {
+    transform: scale(1.1); /* scale up on hover */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* add a shadow on hover */
+    cursor: pointer; /* change the cursor to a pointer on hover */
+  }
+  /* Responsive styles for the Weapons section */
+  @media (max-width: 768px) {
+    .weapons-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .weapons-grid {
+      grid-template-columns: 1fr;
+    }
+    .weapon {
+      margin-bottom: 20px;
+    }
+  }
+.banner img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  /* For smaller screens */
+  @media (max-width: 768px) {
+    .banner img {
+      height: 200px;
+    }
+  }
+  
+  /* For even smaller screens */
+  @media (max-width: 480px) {
+    .banner img {
+      height: 150px;
+    }
+  }
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.content-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.content-section {
+    background-color: #262626;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.content-section:hover {
+    transform: scale(1.05);
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.image-grid img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #ff4655;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links li {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .content-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo a {
+        font-size: 18px;
+    }
+
+    .nav-links a {
+        font-size: 16px;
+    }
+
+    .banner-text {
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    .content-section {
+        padding: 10px;
+    }
+
+    .image-grid img {
+        width: 100%;
+    }
+}
