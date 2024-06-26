@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+  }
+  
+  .container {
+    max-width: 900px; 
+    margin: 40px auto;
+    padding: 30px; 
+    background-color: #a8b8962c;
+    border: 1px solid #000000; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .controls {
+    background-color: #DAD3BE; 
+    padding: 20px;
+    color: #333; 
+    border-bottom: 1px solid #ccc; 
+  }
+  
+  .controls button {
+    background-color: #75735a; 
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px; 
+  }
+  
+  .controls button:hover {
+    background-color: #5d7c23; 
+  }
+  
+  .controls input[type="number"] {
+    width: 60px;
+    height: 30px;
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid #000000; 
+  }
+  
+  .flexbox-container {
+    height: 500px;
+    padding: 20px;
+    background-color: #6B8A7A; 
+    border: 3px solid #000000; 
+    border-radius: 10px; 
+  }
+  
+  .box {
+    background-color: #254336;
+    color: #fff;
+    padding: 20px;
+    margin: 10px;
+    width: 60px; 
+    height: 60px; 
+    text-align: center;
+    font-size: 24px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 10px; 
+  }
+  
+  .box:hover {
+    background-color: #999720; 
+  }
+  
+  .box +.box {
+    margin-left: 10px;
+  }
+  
+  .flexbox-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    transition: all 0.3s ease-in-out;
+  }
+  
