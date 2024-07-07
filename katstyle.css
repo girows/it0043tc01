@@ -1,13 +1,11 @@
 body {
-    /* Add your GIF as the background image */
     background-image: url('slideshow.gif');
-    background-size: cover; /* Scale the GIF to cover the entire background */
-    background-repeat: no-repeat; /* Prevent the GIF from repeating */
+    background-size: cover; 
+    background-repeat: no-repeat; 
   }
   
   .greeting {
-    /* Add some styling to make the greeting stand out */
-    background-color: rgba(255, 255, 255, 0.8); /* White background with 80% opacity */
+    background-color: rgba(255, 255, 255, 0.8); 
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -15,41 +13,37 @@ body {
   
   .photo {
     text-align: center;
-    margin: 20px auto; /* Add this line to center the image horizontally */
-    border: 5px solid #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+   
 }
   
 .photo img {
-    width: 100%; /* Make the image take up the full width of the container */
+    width: 50%; 
     height: auto;
-    border-radius: 10px;
-    margin: 0 auto; /* Add this line to center the image horizontally */
-    display: block; /* Add this line to remove any inline spacing */
+    border: 5px dashed #fff; 
+    border-radius: 10px; 
 }
 
-   /* Add some basic styling to make it look good */
+   
    body {
-            background-color: #FFC5C5; /* Pastel pink background */
-            font-family: 'Noto Sans KR', sans-serif; /* Korean font */
+            background-color: #FFC5C5; 
+            font-family: 'Noto Sans KR', sans-serif; 
         }
-
-h1 {
-    color: #00698f; /* Blue color for the title */
-    font-size: 70px;
-    text-align: center;
-    margin-bottom: 20px;
-}
+ h1 {
+            color: #ff69b4; 
+            font-size: 90px;
+            font-weight: bold;
+            text-align: center;
+            text-shadow: 2px 2px #ffc5c5;    
+         }
 
 .greeting {
-    background-color: #fff; /* White background for the greeting */
+    background-color: #fff; 
     padding: 20px;
-    border: 1px solid #ddd; /* Light gray border */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
-    width: 80%; /* Make it 80% wide */
-    margin: 40px auto; /* Center it horizontally */
+    border: 1px solid #ddd; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    width: 80%; 
+    margin: 40px auto; 
 }
 
 .greeting p {
