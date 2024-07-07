@@ -15,7 +15,7 @@
         <p>With all our love, <em>[Gik & Reeves | BN FAM <3]</em></p>
     </div>
     <div class="photo">
-        <img src="mamitwice.png" alt="mamikat" id="mamitwice-img">
+        <img src="mamitwice.png" alt="mamikat" id="mamitwice-img" onclick="playAudio()">
     </div>
     <audio id="birthday-song" loop>
         <source src="twice bday song.mp3" type="audio/mp3">
@@ -23,10 +23,9 @@
   
     <script>
         function playAudio() {
-            var audio = document.getElementById("mamitwice-img");
+            var audio = document.getElementById("birthday-song");
             audio.play();
         }
     </script>
-
 </body>
 </html>
