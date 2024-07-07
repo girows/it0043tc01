@@ -1,0 +1,67 @@
+body {
+    /* Add your GIF as the background image */
+    background-image: url('slideshow.gif');
+    background-size: cover; /* Scale the GIF to cover the entire background */
+    background-repeat: no-repeat; /* Prevent the GIF from repeating */
+  }
+  
+  .greeting {
+    /* Add some styling to make the greeting stand out */
+    background-color: rgba(255, 255, 255, 0.8); /* White background with 80% opacity */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .photo {
+    text-align: center;
+    margin: 20px auto; /* Add this line to center the image horizontally */
+    border: 5px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+  
+.photo img {
+    width: 100%; /* Make the image take up the full width of the container */
+    height: auto;
+    border-radius: 10px;
+    margin: 0 auto; /* Add this line to center the image horizontally */
+    display: block; /* Add this line to remove any inline spacing */
+}
+
+   /* Add some basic styling to make it look good */
+   body {
+            background-color: #FFC5C5; /* Pastel pink background */
+            font-family: 'Noto Sans KR', sans-serif; /* Korean font */
+        }
+
+h1 {
+    color: #00698f; /* Blue color for the title */
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.greeting {
+    background-color: #fff; /* White background for the greeting */
+    padding: 20px;
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    width: 80%; /* Make it 80% wide */
+    margin: 40px auto; /* Center it horizontally */
+}
+
+.greeting p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.greeting{
+    font-weight: bold; 
+}
+
+.photo {
+    text-align: center;/
+    margin-top: 40px;
+}
