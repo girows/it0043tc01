@@ -1,12 +1,12 @@
 
 $(document).ready(function () {
-    // Initialize AOS
+  
     AOS.init({
         duration: 1000,
         once: true
     });
 
-    // Smooth scrolling for navigation links
+    
     $('a.nav-link').on('click', function (event) {
         if (this.hash !== "") {
             event.preventDefault();
@@ -19,7 +19,7 @@ $(document).ready(function () {
         }
     });
     var swiper = new Swiper('.swiper-container', {
-        // Optional parameters
+      
         direction: 'horizontal',
         loop: true,
         pagination: {
@@ -31,7 +31,7 @@ $(document).ready(function () {
         },
     });
 
-    // Back to Top Button
+    
     var backToTopButton = $('#backToTop');
 
     $(window).scroll(function () {
@@ -69,7 +69,7 @@ $(document).ready(function () {
           once: true
       });
   
-      // Initialize Swiper
+     
       var swiper = new Swiper('.photography-swiper', {
           effect: 'coverflow',
           grabCursor: true,
@@ -93,7 +93,7 @@ $(document).ready(function () {
           },
       });
   });
-    // Initialize Particles JS
+    
     particlesJS('body', {
         particles: {
           number: {
