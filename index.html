@@ -1,11 +1,245 @@
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title> IT0043 - TC01 </title>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.min.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+ <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="logo.png" alt="Logo width="50" height="50">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#photos">Photos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
     
-  </head>
-  <body>
-    <h1> Del Mundo, Giro Arleigh D. </h1>
-    <h2> BSITCST - 202311685 </h2>
-       <p></p> Salamin, salamin sa dingding, puwede mo bang sabihin?</p>
-  </body>
+
+    <!-- Home Section -->
+    <section id="home" class="vh-100 d-flex align-items-center justify-content-center text-center text-white"
+        style="background-image: url('bwimg.png'); background-size: cover; background-position: center;">
+        <div>
+            <p data-aos="fade-up" data-aos-delay="200">Discover my work and projects</p>
+
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container py-5 text-white">
+        <div class="row">
+            <div class="col-md-6" data-aos="fade-right">
+                <img src="colored icon.png" alt="Giro Arleigh Del Mundo" class="img-fluid rounded-circle mb-3">
+            </div>
+            <div class="col-md-6" data-aos="fade-left">
+                <h2>About Me</h2>
+                <p>Hello! I'm Giro Arleigh Del Mundo, a first-year Cybersecurity student with a passion for securing the
+                    digital world.</p>
+                <p>When I'm not studying or tackling cyber threats, you can find me on the baseball field, where I hone
+                    my teamwork and strategic skills. I also have a deep love for photography and filmmaking, capturing
+                    life's moments and expressing creativity through my lens.</p>
+                <p>As a cybersecurity enthusiast, I'm constantly learning and exploring new ways to stay ahead of the
+                    threats. My strengths include:</p>
+                <ul>
+                    <li>Strong analytical and problem-solving skills</li>
+                    <li>Proficient in multiple programming languages</li>
+                </ul>
+                <p>In my free time, I enjoy traveling, trying new foods, and watching movies. I'm excited to connect
+                    with others who share these interests and explore new opportunities together!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Gallery -->
+    <section id="photos">
+        <h2>My Image Gallery</h2>
+        <div class="slider-container">
+            <div class="slider-images">
+                <div class="slider-img">
+                    <img src="bar.jpg" alt="1" />
+                    <h1>Slots</h1>
+                    <div class="details">
+                        <h2>Slots</h2>
+                        <p>Panglao Bohol</p>
+                    </div>
+                </div>
+                <div class="slider-img">
+                    <img src="bell.jpg" alt="2" />
+                    <h1>Bell</h1>
+                    <div class="details">
+                        <h2>Bell</h2>
+                        <p>Baclayon Bohol</p>
+                    </div>
+                </div>
+                <div class="slider-img">
+                    <img src="boat.jpg" alt="3" />
+                    <h1>Agos</h1>
+                    <div class="details">
+                        <h2>Agos</h2>
+                        <p>Alona Beach</p>
+                    </div>
+                </div>
+                <div class="slider-img active">
+                    <img src="night boat.jpg" alt="4" />
+                    <h1>kayak</h1>
+                    <div class="details">
+                        <h2>kayak</h2>
+                        <p>Alona Beach</p>
+                    </div>
+                </div>
+                <div class="slider-img">
+                    <img src="doggo.jpg" alt="5" />
+                    <h1>iro</h1>
+                    <div class="details">
+                        <h2>iro</h2>
+                        <p>Alona Beach</p>
+                    </div>
+                </div>
+                <div class="slider-img">
+                    <img src="plane.jpg" alt="6" />
+                    <h1>ERE</h1>
+                    <div class="details">
+                        <h2>ERE</h2>
+                        <p>Manila Ph</p>
+                    </div>
+                </div>
+                <div class="slider-img">
+                    <img src="statuecross.jpg" alt="7" />
+                    <h1>Isog</h1>
+                    <div class="details">
+                        <h2>Isog</h2>
+                        <p>Cebu ph</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <div class="container">
+            <h2 class="section-title">My Works</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-aos="fade-up">
+                    <a href="https://girows.github.io/it0043tc01/delmundo_tsa5.html" target="_blank"
+                        rel="noopener noreferrer">
+                        <div class="portfolio-image-wrapper">
+                            <img src="thumbtsa5.png" alt="Project 1">
+                        </div>
+                        <h3>Technical Summative 5</h3>
+                        <p>La Casa de Papel theme Using CSS Grid and Flexbox</p>
+                    </a>
+                </div>
+                <div class="portfolio-item" data-aos="fade-up">
+                    <a href="https://girows.github.io/it0043tc01/delmundo_tsa4.html" target="_blank"
+                        rel="noopener noreferrer">
+                        <div class="portfolio-image-wrapper">
+                            <img src="thumbtsa4.png" alt="Project 2">
+                        </div>
+                        <h3>Technical Summative 4</h3>
+                        <p>Set of Pokemon Cards</p>
+                    </a>
+                </div>
+                <div class="portfolio-item" data-aos="fade-up">
+                    <a href="https://girows.github.io/it0043tc01/delmundo_tsa6.html" target="_blank"
+                        rel="noopener noreferrer">
+                        <div class="portfolio-image-wrapper">
+                            <img src="thumbtsa6.png" alt="Project 3">
+                        </div>
+                        <h3>Technical Summative 6</h3>
+                        <p>My Favorite Game</p>
+                    </a>
+                </div>
+                <div class="portfolio-item" data-aos="fade-up">
+                    <a href="https://girows.github.io/it0043tc01/delmundo_tsa3.html" target="_blank"
+                        rel="noopener noreferrer">
+                        <div class="portfolio-image-wrapper">
+                            <img src="thumbtsa3.png" alt="Project 4">
+                        </div>
+                        <h3>Technical Summative 3</h3>
+                        <p>HTML and CSS Announcement</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container py-5 text-white">
+        <h2 class="text-center mb-5" data-aos="fade-up">Get in Touch</h2>
+        <form>
+            <div class="mb-3" data-aos="fade-up" data-aos-delay="200">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control bg-dark text-white" id="name">
+            </div>
+            <div class="mb-3" data-aos="fade-up" data-aos-delay="400">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control bg-dark text-white" id="email">
+            </div>
+            <div class="mb-3" data-aos="fade-up" data-aos-delay="600">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control bg-dark text-white" id="message" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-dark" data-aos="fade-up" data-aos-delay="800">Submit</button>
+        </form>
+    </section>
+
+<!-- Footer Section -->
+<footer id="footer" class="container py-5 text-white text-center">
+    <h2 data-aos="fade-up">Follow Me</h2>
+    <div class="d-flex justify-content-center">
+        <a href="https://www.facebook.com/gikgik.delmundo" class="mx-2" data-aos="fade-up" data-aos-delay="200">
+            <img src="fbicon.png" alt="Facebook" class="social-icon" style="width: 24px; height: 24px;">
+        </a>
+        <a href="https://www.instagram.com/girodelmundo" class="mx-2" data-aos="fade-up" data-aos-delay="400">
+            <img src="igicon.png" alt="Instagram" class="social-icon" style="width: 24px; height: 24px;">
+        </a>
+    </div>
+</footer>
+    <!-- Back to Top Button -->
+    <button onclick="topFunction()" id="backToTop" title="Go to top">Top</button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="scripts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0"></script>
+    <script src="js/jQuery.js"></script>
+    <script>
+        jQuery(document).ready(function ($) {
+            $(".slider-img").on("click", function () {
+                $(".slider-img").removeClass("active");
+                $(this).addClass("active");
+            });
+        });
+    </script>
+    <script src="scripts.js"></script>
+</body>
+
 </html>
